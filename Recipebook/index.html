@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taste Tales - A Recipe Book</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__logo">Taste Tales</div>
+    <ul class="nav__links">
+      <li><a href="#featured">Featured</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#recipes">Recipes</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero__bg-text" aria-hidden="true">RECIPE</div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Volume I - Seasonal Edition</span>
+      <h1 class="hero__title">Food is the<br/><em>language</em><br/>of love.</h1>
+      <p class="hero__sub">Handpicked recipes from grandmothers, street vendors,<br/>and three-star kitchens - all made for your home.</p>
+      <a href="#recipes" class="btn-primary">Browse Recipes</a>
+    </div>
+    <div class="hero__image-col">
+      <div class="hero__plate hero__plate--1">
+        <img class="plate-img" src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=80&h=80&fit=crop&auto=format" alt="Pasta al Limone"/>
+        <span>Pasta</span>
+      </div>
+      <div class="hero__plate hero__plate--2">
+        <img class="plate-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=80&h=80&fit=crop&auto=format" alt="Spring Salad"/>
+        <span>Salad</span>
+      </div>
+      <div class="hero__plate hero__plate--3">
+        <img class="plate-img" src="https://imgs.search.brave.com/o6v9ObUpGtjzhgWhgCxj4pA3khgS3ZKxkCx0dJQ90k0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNjcv/OTAwLzA0Ny9zbWFs/bC9jbGFzc2ljLWlk/bGktYW5kLXNhbWJo/YXItYnJlYWtmYXN0/LW1lYWwtZnJlZS1w/aG90by5qcGVn" alt="Idli Sambhar"/>
+        <span>Idli Sambhar</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__inner">
+      <span>Fresh &amp; Seasonal</span><span class="dot">◆</span>
+      <span>From the Garden</span><span class="dot">◆</span>
+      <span>Family Recipes</span><span class="dot">◆</span>
+      <span>Chef's Secrets</span><span class="dot">◆</span>
+      <span>Slow Cooking</span><span class="dot">◆</span>
+      <span>Quick &amp; Easy</span><span class="dot">◆</span>
+      <span>Vegetarian</span><span class="dot">◆</span>
+      <span>Global Flavours</span><span class="dot">◆</span>
+      <span>Fresh &amp; Seasonal</span><span class="dot">◆</span>
+      <span>From the Garden</span><span class="dot">◆</span>
+      <span>Family Recipes</span><span class="dot">◆</span>
+      <span>Chef's Secrets</span><span class="dot">◆</span>
+      <span>Slow Cooking</span><span class="dot">◆</span>
+      <span>Quick &amp; Easy</span><span class="dot">◆</span>
+      <span>Vegetarian</span><span class="dot">◆</span>
+      <span>Global Flavours</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <section class="featured" id="featured">
+    <div class="section-label">— Featured Recipe</div>
+    <div class="featured__grid">
+      <div class="featured__visual">
+        <img class="featured__img" src="https://imgs.search.brave.com/u-3I4vsc1IoTSfz1ot9n1Cu3ivvbvJNBIe7BpNKASQA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/OTEzMjU0MTg0NDEt/ZmY2NzhiYWY3OGVm/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjEuMCZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE4zeDhjbUZ0/Wlc1OFpXNThNSHg4/TUh4OGZEQT0" alt="Ramen"/>
+        <div class="featured__badge">Chef's Pick</div>
+        <div class="featured__time">45 min</div>
+      </div>
+      <div class="featured__info">
+        <span class="tag">Japanese · Comfort Food</span>
+        <h2 class="featured__title">Ramen<br/><em>Japanese Traditional</em></h2>
+        <p class="featured__desc">
+         Japanese Ramen features a creamy, pork bone broth simmered for hours from Kyushu, Japan. Topped with pork, soft-boiled egg, green onions, and wavy noodles for ultimate comfort.
+        </p>
+        <div class="featured__meta">
+          <div class="meta-item">
+            <span class="meta-label">Prep</span>
+            <span class="meta-val">10 min</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Cook</span>
+            <span class="meta-val">35 min</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Serves</span>
+            <span class="meta-val">4</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Level</span>
+            <span class="meta-val">Medium</span>
+          </div>
+        </div>
+        <div class="featured__ingredients">
+          <p class="ingr-label">Key Ingredients</p>
+          <div class="ingr-list">
+            <span>Broth</span>
+            <span>Noodles</span>
+            <span>Egg</span>
+            <span>Toppings</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="categories" id="categories">
+    <div class="section-label">— Browse by Category</div>
+    <h2 class="section-title">What are you<br/><em>craving?</em></h2>
+    <div class="cat-grid">
+      <a class="cat-card cat-card--wide cat-card--dark " target="_blank" rel="noopener">
+        <img class="cat-img " src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=80&h=80&fit=crop&auto=format" alt="Breakfast"/>
+        <div class="cat-info">
+          <h3>Breakfast</h3>
+          <p>18 recipes</p>
+        </div>
+        <div class="cat-arrow"></div>
+      </a>
+      <a class="cat-card cat-card--dark" target="_blank" rel="noopener">
+        <img class="cat-img" src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=80&h=80&fit=crop&auto=format" alt="Mains"/>
+        <div class="cat-info">
+          <h3>Mains</h3>
+          <p>20 recipes</p>
+        </div>
+        <div class="cat-arrow"></div>
+      </a>
+      <a class="cat-card cat-card--dark" target="_blank" rel="noopener">
+        <img class="cat-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=80&h=80&fit=crop&auto=format" alt="Salads"/>
+        <div class="cat-info">
+          <h3>Salads</h3>
+          <p>51 recipes</p>
+        </div>
+        <div class="cat-arrow"></div>
+      </a>
+      <a class="cat-card cat-card--dark" target="_blank" rel="noopener">
+        <img class="cat-img" src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=80&h=80&fit=crop&auto=format" alt="Desserts"/>
+        <div class="cat-info">
+          <h3>Desserts</h3>
+          <p>104 recipes</p>
+        </div>
+        <div class="cat-arrow"></div>
+      </a>
+      <a class="cat-card cat-card--dark"  target="_blank" rel="noopener">
+        <img class="cat-img" src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=80&h=80&fit=crop&auto=format" alt="Drinks"/>
+        <div class="cat-info">
+          <h3>Drinks</h3>
+          <p>105 recipes</p>
+        </div>
+        <div class="cat-arrow"></div>
+      </a>
+      <a class="cat-card cat-card--dark" target="_blank" rel="noopener">
+        <img class="cat-img" src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=80&h=80&fit=crop&auto=format" alt="Vegetarian"/>
+        <div class="cat-info">
+          <h3>Vegetarian</h3>
+          <p>40 recipes</p>
+        </div>
+        <div class="cat-arrow"></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="recipes" id="recipes">
+    <div class="section-label">— Indian Kitchen</div>
+    <div class="recipes__header">
+      <h2 class="section-title">Flavours of<br/><em>India</em></h2>
+      <div class="filter-row">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Quick</button>
+        <button class="filter-btn">Vegetarian</button>
+        <button class="filter-btn">Comfort</button>
+      </div>
+    </div>
+    <div class="recipe-grid">
+
+      <a class="recipe-card" href="https://inside-taste-tales.netlify.app/#chole-bhature" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://imgs.search.brave.com/qV2PK78ARRCPQUQQmYxd1REgbhocGSNsMly7wp8rNhY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI1/MDE4MTYyMS9waG90/by9jaG9sZS1iaGF0/dXJlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1PSGhxSml5/Q09HaFhxb1p4Zl9Z/amxSWVp5YkxfQ21T/UF80bDVsOE9kYU13/PQ" alt="Chole Bhature"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Delhi</span>
+            <span class="tag tag--time">45 min</span>
+          </div>
+          <h3>Chole Bhature</h3>
+          <p>Fiery spiced chickpeas paired with pillowy deep-fried bread - the iconic street food of Old Delhi.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●●○</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="recipe-card" href="https://inside-taste-tales.netlify.app/#butter-chicken" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&h=300&fit=crop&auto=format" alt="Butter Chicken"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Punjabi</span>
+            <span class="tag tag--time">50 min</span>
+          </div>
+          <h3>Butter Chicken</h3>
+          <p>Tender chicken in a velvety tomato-cream sauce, kissed with fenugreek and warm spices.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●○○</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="recipe-card" href="https://inside-taste-tales.netlify.app/#dal-makhni" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://imgs.search.brave.com/jPQi_V50NSgUTqR8vo4moCpd4z7H9xoKOTF_2XQQvGU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9teWZv/b2RzdG9yeS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTgv/MDgvRGFsLU1ha2hh/bmktTmV3LTEuanBn" alt="Dal Makhani"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Vegetarian</span>
+            <span class="tag tag--time">1hr</span>
+          </div>
+          <h3>Dal Makhani</h3>
+          <p>Black lentils slow-cooked overnight with butter and cream - the soul of Punjabi cooking.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●○○</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="recipe-card " href="https://inside-taste-tales.netlify.app/#chicken-biryani" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://imgs.search.brave.com/eqB3LsSf_GpeMLwJrAAxBI6VA4r3Z-kumQxhB4xdMmo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlZGVsaWNpb3Vz/Y3Jlc2NlbnQuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE2/LzA1L0Vhc3ktSHlk/ZXJhYmFkaS1DaGlj/a2VuLUJpcnlhbmku/anBn" alt="Chicken Biryani"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Hyderabadi</span>
+            <span class="tag tag--time">90 min</span>
+          </div>
+          <h3>Chicken Biryani</h3>
+          <p>Fragrant basmati layered with spiced chicken, fried onions, and saffron - sealed and dum-cooked to perfection.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●●●</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="recipe-card" href="https://inside-taste-tales.netlify.app/#samosa" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=300&fit=crop&auto=format" alt="Samosa"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Snack</span>
+            <span class="tag tag--time">60 min</span>
+          </div>
+          <h3>Crispy Samosas</h3>
+          <p>Golden pastry triangles packed with spiced potato and peas - the ultimate tea-time snack.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●○○</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="recipe-card" href="https://inside-taste-tales.netlify.app/#palak-paneer" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://imgs.search.brave.com/O9-vGtbQnft_umRU4b9HinPGkDtM9KYaCRjyp9dpfFs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi90YXN0/eS1pbmRpYW4tZGlz/aC1wYWxhay1wYW5l/ZXItc2VydmVkLXdo/aXRlLWJvd2wtODIy/NDA1ODguanBn" alt="Palak Paneer"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Vegetarian</span>
+            <span class="tag tag--time">35 min</span>
+          </div>
+          <h3>Palak Paneer</h3>
+          <p>Soft cottage cheese cubes nestled in a vibrant, garlicky spinach gravy - wholesome and beautifully green.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●○○</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="recipe-card recipe-card--tall" href="https://inside-taste-tales.netlify.app/#daal-baati" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://i.ytimg.com/vi/3VnUqfOdkHk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvJFZebWMeG3CqrFSakMBSEEzAaA" alt="Dal Baati Churma"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Madhya Pradesh</span>
+            <span class="tag tag--time">2hr</span>
+          </div>
+          <h3>Dal Baati Churma</h3>
+          <p>Rustic baked wheat balls dipped in ghee, served with five-lentil dal and sweet churma - the pride of MP's royal kitchens.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●●○</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="recipe-card" href="https://inside-taste-tales.netlify.app/#gulab-jamun" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://www.cadburydessertscorner.com/hubfs/dc-website-2022/articles/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know.webp" alt="Gulab Jamun"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Dessert</span>
+            <span class="tag tag--time">40 min</span>
+          </div>
+          <h3>Gulab Jamun</h3>
+          <p>Melt-in-the-mouth milk-solid dumplings soaked in rose-cardamom syrup - India's most beloved sweet.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●○○</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+      
+      <a class="recipe-card" href="https://inside-taste-tales.netlify.app/#ramen" target="_blank" rel="noopener">
+        <img class="recipe-card__img" src="https://imgs.search.brave.com/u-3I4vsc1IoTSfz1ot9n1Cu3ivvbvJNBIe7BpNKASQA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/OTEzMjU0MTg0NDEt/ZmY2NzhiYWY3OGVm/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjEuMCZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE4zeDhjbUZ0/Wlc1OFpXNThNSHg4/TUh4OGZEQT0" alt="Ramen"/>
+        <div class="recipe-card__body">
+          <div class="recipe-card__tags">
+            <span class="tag">Meal</span>
+            <span class="tag tag--time">3hr</span>
+          </div>
+          <h3>Ramen</h3>
+          <p>Japanese Ramen features a creamy, pork bone broth simmered for hours from Kyushu, Japan. Topped with pork, soft-boiled egg, green onions, and wavy noodles for ultimate comfort.</p>
+          <div class="recipe-card__footer">
+            <span class="difficulty">●●○○</span>
+            <span class="link-arrow">Recipe →</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="recipes__more">
+        <a href="https://www.archanaskitchen.com/" target="_blank" rel="noopener" class="btn-outline">Load More Recipes</a>
+    </div>
+  </section>
+
+  <section class="quote-section">
+    <blockquote>
+      <span class="quote-mark">"</span>
+      One cannot think well, love well, sleep well, if one has not dined well.
+      <span class="quote-mark">"</span>
+    </blockquote>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about__text">
+      <div class="section-label">- Taste Tales</div>
+      <h2>Recipes with<br/><em>soul &amp; story</em></h2>
+      <p>Taste Tales began as a handwritten notebook passed between friends - a place to keep the recipes that mattered. What you find here is honest food: nothing needs a molecular gastronomy kit or a pantry full of obscure ingredients.</p>
+      <p>Every recipe has been tested in a real kitchen, on a real stove, by real people who were hungry.</p>
+      
+    </div>
+    <div class="about__stats">
+      <div class="stat">
+        <span class="stat-num">177</span>
+        <span class="stat-label">Recipes</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">12</span>
+        <span class="stat-label">Cuisines</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">4</span>
+        <span class="stat-label">Seasons</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">1</span>
+        <span class="stat-label">Notebook</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo">Taste Tales</div>
+        <p>Cooking is love made visible.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Explore</h4>
+        <a href="#">All Recipes</a>
+        <a href="#">Categories</a>
+        <a href="#">Seasonal</a>
+        <a href="#">Vegetarian</a>
+      </div>
+      <div class="footer__links">
+        <h4>About</h4>
+        <a href="#">Our Story</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Taste Tales. Made with ♥ and good butter.</span>
+      <span class="footer__mono">v1.0 — Seasonal Edition</span>
+    </div>
+  </footer>
+
+</body>
+</html>
