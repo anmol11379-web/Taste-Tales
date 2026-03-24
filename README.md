@@ -1,11 +1,11 @@
 # Taste-Tales
  Taste Tales -  A beautifully designed recipe book web app featuring Indian &amp; global cuisines, built with HTML, CSS only.
 
-# 🍽️ Taste Tales — A Recipe Book
+# 🍽️ Taste Tales - A Recipe Book
 
 > *"Food is the language of love."*
 
-A beautifully crafted recipe book web app — Volume I, Seasonal Edition.  
+A beautifully crafted recipe book web app - Volume I, Seasonal Edition.  
 Featuring handpicked recipes from Indian kitchens and global cuisines, designed for home cooks.
 
 🔗 **Live Demo:** https://tastetales-recipebook.netlify.app/
@@ -20,7 +20,6 @@ Featuring handpicked recipes from Indian kitchens and global cuisines, designed 
 - 📱 Fully responsive design
 - 🎨 Clean editorial-style UI with smooth layout
 
----
 
 ## 🛠️ Tech Stack
 
@@ -30,7 +29,6 @@ Featuring handpicked recipes from Indian kitchens and global cuisines, designed 
 | CSS3 | Styling & Animations |
 | Netlify | Deployment |
 
----
 
 ## 📂 Project Structure
 ```
