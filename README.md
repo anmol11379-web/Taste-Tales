@@ -10,7 +10,6 @@ Featuring handpicked recipes from Indian kitchens and global cuisines, designed 
 
 🔗 **Live Demo:** https://tastetales-recipebook.netlify.app/
 
-
 ## ✨ Features
 
 - 🌟 Featured recipe spotlight with cook time, difficulty & ingredients
